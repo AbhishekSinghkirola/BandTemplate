@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Band</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- ---------------------------- Desktop Navbr ---------------------------- -->
+    <nav class="desktop-nav">
+      <ul class="nav">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="#band">Band</a></li>
+        <li><a href="#tour">Tour</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="dropdown-container">
+          <a class="dropdown" href="#">More</a>
+          <ul class="sub-dropdown">
+            <li><a href="#">Merchandise</a></li>
+            <li><a href="#">Extras</a></li>
+            <li><a href="#">Media</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="search-icon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </nav>
+
+    <!-- ----------------------- Navbar on small screen ------------------------ -->
+    <nav class="mobile-nav">
+      <div class="nav">
+        <a class="home" href="./index.html">Home</a>
+        <div class="hamburger-icon" id="toggle-menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+      <div class="collapsable-menu hide">
+        <a href="#band">Band</a>
+        <a href="#tour">Tour</a>
+        <a href="#contact">Contact</a>
+        <a href="#">Merch</a>
+      </div>
+    </nav>
+    <main>
+      <!-- ---------------------------- Hero Section ----------------------------- -->
+      <section id="hero">
+        <div class="carousel">
+          <img src="./assets/images/banner1.jpg" alt="Banner 1" />
+          <div class="hero-description">
+            <h4>Los Angeles</h4>
+            <p>We had the best time playing at Venice Beach!</p>
+          </div>
+        </div>
+        <div class="carousel hide">
+          <img src="./assets/images/banner2.jpg" alt="Banner 1" />
+          <div class="hero-description">
+            <h4>New York</h4>
+            <p>The atmosphere in New York is Lorem ipsum</p>
+          </div>
+        </div>
+        <div class="carousel hide">
+          <img src="./assets/images/banner3.jpg" alt="Banner 1" />
+          <div class="hero-description">
+            <h4>Chicago</h4>
+            <p>Thank you, Chicago - A night we won't forget.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------------------------- About section ---------------------------- -->
+      <section class="container" id="band">
+        <h2 class="text-center">The Band</h2>
+        <p class="text-center text-muted text-italic">We love music</p>
+        <p class="text-justify">
+          We have created a fictional band website. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.
+        </p>
+        <div class="members">
+          <div class="text-center">
+            <p>Name</p>
+            <img
+              src="./assets/images/members/bandmember1.jpg"
+              alt="Memeber Name"
+            />
+          </div>
+          <div class="text-center">
+            <p>Name</p>
+            <img
+              src="./assets/images/members/bandmember1.jpg"
+              alt="Memeber Name"
+            />
+          </div>
+          <div class="text-center">
+            <p>Name</p>
+            <img
+              src="./assets/images/members/bandmember1.jpg"
+              alt="Memeber Name"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------------------------- Tour Section ----------------------------- -->
+      <section id="tour">
+        <div class="container">
+          <h2 class="text-center">Tour Dates</h2>
+          <p class="text-center text-muted text-italic">
+            Remember to book your tickets!
+          </p>
+          <ul class="tour-calendar">
+            <li>September <span class="badge">Sold Out</span></li>
+            <li>October <span class="badge">Sold Out</span></li>
+            <li class="last-date">
+              November <span class="notification-badge">3</span>
+            </li>
+          </ul>
+          <div class="tour-catalouge">
+            <div class="tour-place">
+              <div>
+                <img src="./assets/images/tour-places/newyork.jpg" alt="" />
+              </div>
+              <div class="tour-desc">
+                <h4>New York</h4>
+                <p class="text-muted">Fri 27 Nov 2023</p>
+                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <button>Buy Tickets</button>
+              </div>
+            </div>
+            <div class="tour-place">
+              <div>
+                <img src="./assets/images/tour-places/paris.jpg" alt="" />
+              </div>
+              <div class="tour-desc">
+                <h4>Paris</h4>
+                <p class="text-muted">Sat 28 Nov 2023</p>
+                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <button>Buy Tickets</button>
+              </div>
+            </div>
+            <div class="tour-place">
+              <div>
+                <img src="./assets/images/tour-places/sanfran.jpg" alt="" />
+              </div>
+              <div class="tour-desc">
+                <h4>San Francisco</h4>
+                <p class="text-muted">Sun 29 Nov 2023</p>
+                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <button>Buy Tickets</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ------------------------------- Contact ------------------------------- -->
+      <section id="contact">
+        <div class="container">
+          <h2 class="text-center">Contact</h2>
+          <p class="text-center text-muted text-italic">Fan? Drop a note!</p>
+          <div class="contact-form">
+            <div class="contact-info">
+              <div class="flex">
+                <i class="fa-solid fa-location-pin"></i>
+                <p class="m-0">Chicago, US</p>
+              </div>
+              <div class="flex">
+                <i class="fa-solid fa-phone"></i>
+                <p class="m-0">CPhone: +00 151515</p>
+              </div>
+              <div class="flex">
+                <i class="fa-solid fa-envelope"></i>
+                <p class="m-0">Email: mail@mail.com</p>
+              </div>
+            </div>
+            <form action="" method="POST">
+              <div class="form-group">
+                <input class="form-input" type="text" placeholder="Name" />
+                <input class="form-input" type="email" placeholder="Email" />
+              </div>
+              <input class="form-input" type="text" placeholder="message" />
+              <button class="submit-btn" type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+        <div class="contact-location">
+          <img src="./assets/images/contact/map.jpg" alt="Contact Location" />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <p class="text-center">
+        Made With Love By
+        <a
+          class="text-underline"
+          href="https://github.com/AbhishekSinghkirola"
+          target="_blank"
+          >Abhishek</a
+        >
+        🖤
+      </p>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
