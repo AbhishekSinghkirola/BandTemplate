@@ -1,4 +1,4 @@
-# <a href="https://abhisheksinghkirola.github.io/BandTemplate/">Band Template</a>
+# <a href="https://abhisheksinghkirola.github.io/BandTemplate/" target="_blank">Band Template</a>
 <p>
   It a basic static template design bassed on Bands. It is fully responsive and technology used in is HTML, CSS, JS.
 </p>
